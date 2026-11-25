@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prytaneum Practice Wall</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <p class="eyebrow">Prytaneum Development Team</p>
+        <h1>Practice Wall</h1>
+        <p class="lead">
+          Each teammate adds one button by following the team workflow:
+          branch, pull request, preview, review, merge.
+        </p>
+        <p class="count" id="count"></p>
+      </header>
+      <section class="wall" id="wall" aria-label="Team buttons"></section>
+      <p class="message" id="message" role="status" aria-live="polite">Click a button to read its message.</p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
